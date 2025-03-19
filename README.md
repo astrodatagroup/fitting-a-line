@@ -14,7 +14,12 @@ software tools.
 | Outliers | TBD | TBD | TBD |
 | Two populations | TBD | TBD | TBD |
 | Uncertainty in x and y | TBD | TBD | TBD |
-| Non-Gaussian uncertainty | TBD | TBD | TBD |
+| Non-Gaussian / asymmetric uncertainty | TBD | TBD | TBD |
+| Upper/lower limits | TBD | TBD | TBD |
+| Missing data | TBD | TBD | TBD |
+| How to tell if a line is a bad model | TBD | TBD | TBD |
+| Orthogonal fits (2d) | TBD | TBD | TBD |
+| Variational inference | TBD | TBD | TBD |
 
 Feel free to contribute ideas for new recipes to this list, or to contribute recipes for
 any of the ideas listed in this table!
