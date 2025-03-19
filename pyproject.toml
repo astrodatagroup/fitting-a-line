@@ -18,13 +18,16 @@ classifiers = [
 version = "0.0.0"
 dependencies = [
   "astropy",
-  "numpy",
-  "scipy",
   "jax",
   "jaxopt",
+  "matplotlib",
+  "numpy",
   "numpyro",
   "numpyro-ext",
+  "scipy",
   "ipykernel",
+  "ipywidgets",
+  "jupyter-client",
   "pre-commit"
 ]
 
