@@ -20,6 +20,7 @@ software tools.
 | How to tell if a line is a bad model | TBD | TBD | TBD |
 | Orthogonal fits (2d) | TBD | TBD | TBD |
 | Variational inference | TBD | TBD | TBD |
+| Simulation based inference / likelihood-free inference | TBD | TBD | TBD |
 
 Feel free to contribute ideas for new recipes to this list, or to contribute recipes for
 any of the ideas listed in this table!
