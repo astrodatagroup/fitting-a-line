@@ -24,6 +24,7 @@ any of the ideas listed in this table!
 Install the dependencies:
 
 ```bash
+uv venv
 uv sync
 pre-commit install
 ```
