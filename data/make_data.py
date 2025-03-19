@@ -13,7 +13,7 @@ def main(n_data):
 
     true_pars = rng.uniform(-10, 10, size=2)
     y = true_pars[0] + true_pars[1] * x
-    y_err = np.exp(rng.uniform(np.log(0.1), np.log(10), size=n_data))
+    y_err = np.exp(rng.uniform(np.log(1), np.log(10), size=n_data))
     y = rng.normal(y, y_err)
 
     tbl = at.Table({"x": x, "y": y, "y_err": y_err})
