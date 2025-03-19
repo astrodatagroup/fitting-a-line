@@ -16,9 +16,9 @@ def main(n_data):
     y_err = np.exp(rng.uniform(np.log(0.1), np.log(10), size=n_data))
     y = rng.normal(y, y_err)
 
-    at.Table({"x": x, "y": y, "y_err": y_err}).write(
-        data_path / f"heteroskedastic-{n_data}.csv", overwrite=True
-    )
+    tbl = at.Table({"x": x, "y": y, "y_err": y_err})
+    tbl.meta["true_pars"] = list(true_pars)
+    tbl.write(data_path / f"heteroskedastic-{n_data}.ecsv", overwrite=True)
 
 
 if __name__ == "__main__":
