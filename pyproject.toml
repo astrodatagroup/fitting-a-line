@@ -1,0 +1,74 @@
+[project]
+name = "fitting-a-line"
+readme = "README.md"
+license.file = "LICENSE"
+requires-python = ">=3.11"
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering"
+]
+version = "0.0.0"
+dependencies = [
+  "astropy",
+  "numpy",
+  "scipy",
+  "jax",
+  "jaxopt",
+  "numpyro",
+  "numpyro-ext",
+  "ipykernel",
+  "pre-commit"
+]
+
+[tool.uv]
+  package = false
+
+
+[tool.ruff]
+
+[tool.ruff.lint]
+extend-select = [
+  "B",        # flake8-bugbear
+  "I",        # isort
+  "ARG",      # flake8-unused-arguments
+  "C4",       # flake8-comprehensions
+  "EM",       # flake8-errmsg
+  "ICN",      # flake8-import-conventions
+  "G",        # flake8-logging-format
+  "PGH",      # pygrep-hooks
+  "PIE",      # flake8-pie
+  "PL",       # pylint
+  "PT",       # flake8-pytest-style
+  "PTH",      # flake8-use-pathlib
+  "RET",      # flake8-return
+  "RUF",      # Ruff-specific
+  "SIM",      # flake8-simplify
+  "T20",      # flake8-print
+  "UP",       # pyupgrade
+  "YTT",      # flake8-2020
+  "EXE",      # flake8-executable
+  "NPY",      # NumPy specific rules
+  "PD",       # pandas-vet
+]
+ignore = []
+
+[tool.pylint]
+py-version = "3.11"
+reports.output-format = "colorized"
+similarities.ignore-imports = "yes"
+messages_control.disable = [
+  "design",
+  "fixme",
+  "line-too-long",
+  "missing-module-docstring",
+  "missing-function-docstring",
+  "wrong-import-position",
+]
