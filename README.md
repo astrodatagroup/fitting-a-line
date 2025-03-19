@@ -7,7 +7,7 @@ software tools.
 
 | Summary | Method / approach | Software | Link |
 |---------|-------------------|----------|------|
-| Direct linear algebra | least squares, maximum likelihood | Python, numpy | TBD |
+| Direct linear algebra | least squares, maximum likelihood | Python, numpy | [link](https://github.com/astrodatagroup/fitting-a-line/blob/main/recipes/least-squares.ipynb) |
 | Least squares optimization | least squares, maximum likelihood, optimization | Python, numpy, scipy | TBD |
 | Underestimated uncertainties | maximum likelihood, optimization | Python, numpy, scipy | TBD |
 | Unknown uncertainties per object | TBD | TBD | TBD |
